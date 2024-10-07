@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container {
+    text-align: center;
+}
+
+.light-theme {
+    background-color: #f0f0f0;
+    color: #111010;
+}
+
+.dark-theme {
+    background-color: #1a1818;
+    color: #f0f0f0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
